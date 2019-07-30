@@ -1,6 +1,6 @@
 # ASPxGridView - How to change modified cell styles dynamically in Batch Edit mode
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t466715)**
+**[[Run Online]](https://codecentral.devexpress.com/t466715/)**
 <!-- run online end -->
 
 
