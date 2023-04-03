@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to modify cell styles dynamically in Batch Edit mode
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t466715/)**
+**[[Run Online]](https://codecentral.devexpress.com/128533526/)**
 <!-- run online end -->
 
 This example demonstrates how to apply conditional cell formatting dynamically in Batch Edit mode.
