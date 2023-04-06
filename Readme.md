@@ -12,9 +12,9 @@ This example demonstrates how to apply conditional cell formatting dynamically i
 
 ![Formatted cells in batch edit mode](formatted-cells.png)
 
-In Batch Edit mode, modified cell values are stored on the client side until you press the "Save Changes" button. This causes the conditional formatting specified in the [HtmlDataCellPrepared](https://documentation.devexpress.com/#aspnet/DevExpressWebASPxGridView_HtmlDataCellPreparedtopic) event handler is not applied to the modified cells. To format modified cells in Batch Edit mode, set element styles dynamically in the client [BatchEditEndEditing](https://documentation.devexpress.com/#AspNet/DevExpressWebScriptsASPxClientGridView_BatchEditEndEditingtopic) event handler.
+In Batch Edit mode, modified cell values are stored on the client side until you press the "Save Changes" button. This causes the conditional formatting specified in the [HtmlDataCellPrepared](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.HtmlDataCellPrepared) event handler is not applied to the modified cells. To format modified cells in Batch Edit mode, set element styles dynamically in the client [BatchEditEndEditing](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditEndEditing) event handler.
 
-Handle the [HtmlDataCellPrepared](https://documentation.devexpress.com/#aspnet/DevExpressWebASPxGridView_HtmlDataCellPreparedtopic) event and add a custom attribute for each data cell of the formatted column.
+Handle the [HtmlDataCellPrepared](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.HtmlDataCellPrepared) event and add a custom attribute for each data cell of the formatted column.
 
 
 ```csharp
@@ -35,7 +35,7 @@ Specify the [Styles.Row.CssClass](https://docs.microsoft.com/en-us/dotnet/api/sy
     @* ... *@
 ```
 
-Set the modified cell's style in the client-side [BatchEditEndEditing](https://documentation.devexpress.com/#AspNet/DevExpressWebScriptsASPxClientGridView_BatchEditEndEditingtopic) event handler based on the newly entered value.
+Set the modified cell's style in the client-side [BatchEditEndEditing](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.BatchEditEndEditing) event handler based on the newly entered value.
 
 ```js
 function OnBatchEditEndEditing(s, e) {
