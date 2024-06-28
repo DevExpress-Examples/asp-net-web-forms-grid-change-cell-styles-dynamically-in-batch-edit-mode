@@ -23,7 +23,7 @@ protected void Grid_HtmlDataCellPrepared(object sender, DevExpress.Web.ASPxGridV
 }
 ```
 
-Specify the [Styles.Row.CssClass](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.style.cssclass?view=netframework-4.8.1#System_Web_UI_WebControls_Style_CssClass) property and use this class and attribute to access the edited cell on the client side. 
+Specify the [Styles.Row.CssClass](https://docs.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.style.cssclass) property and use this class and attribute to access the edited cell on the client side. 
 
 ```aspx
 <dx:ASPxGridView ID="Grid" runat="server" KeyFieldName="ID" ...>
